@@ -39,7 +39,6 @@ $(document).ready(function() {
       $.each(r, function() {
         tablerow = '<tr><td><a href="' + this.other + '">' + this.title + '</a></td><td><p>' + this.author + '</p></td><td><p>' + this.year +
           '</p></td><td><a href="' + this.pdf + '" class="btn btn-default" >pdf</a></td></tr>';
-        console.log(tablerow);
         $result.append(tablerow);
       });
     }
